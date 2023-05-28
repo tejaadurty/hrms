@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-25T20:44:41 IST" name="Suite" finished-at="2023-04-25T20:44:53 IST" duration-ms="12292">
+    <groups>
+    </groups>
+    <test started-at="2023-04-25T20:44:41 IST" name="Test1" finished-at="2023-04-25T20:44:51 IST" duration-ms="10146">
+      <class name="Parametrization.Parametrization_1">
+        <test-method is-config="true" signature="Launch(java.lang.String,java.lang.String)[pri:0, instance:Parametrization.Parametrization_1@66f57048]" started-at="2023-04-25T20:44:41 IST" name="Launch" finished-at="2023-04-25T20:44:50 IST" duration-ms="9278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Test2()[pri:0, instance:Parametrization.Parametrization_1@66f57048]" started-at="2023-04-25T20:44:50 IST" name="Test2" finished-at="2023-04-25T20:44:50 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:Parametrization.Parametrization_1@66f57048]" started-at="2023-04-25T20:44:50 IST" name="Test3" finished-at="2023-04-25T20:44:50 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test1()[pri:1, instance:Parametrization.Parametrization_1@66f57048]" started-at="2023-04-25T20:44:50 IST" name="Test1" finished-at="2023-04-25T20:44:51 IST" duration-ms="654" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="Exit()[pri:0, instance:Parametrization.Parametrization_1@66f57048]" started-at="2023-04-25T20:44:51 IST" name="Exit" finished-at="2023-04-25T20:44:51 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+      </class> <!-- Parametrization.Parametrization_1 -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-04-25T20:44:41 IST" name="Test2" finished-at="2023-04-25T20:44:53 IST" duration-ms="12292">
+      <class name="Parametrization.Parametrization_1">
+        <test-method is-config="true" signature="Launch(java.lang.String,java.lang.String)[pri:0, instance:Parametrization.Parametrization_1@51c668e3]" started-at="2023-04-25T20:44:41 IST" name="Launch" finished-at="2023-04-25T20:44:52 IST" duration-ms="10955" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://opensource-demo.orangehrmlive.com/web/index.php/auth/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="Test2()[pri:0, instance:Parametrization.Parametrization_1@51c668e3]" started-at="2023-04-25T20:44:52 IST" name="Test2" finished-at="2023-04-25T20:44:52 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:Parametrization.Parametrization_1@51c668e3]" started-at="2023-04-25T20:44:52 IST" name="Test3" finished-at="2023-04-25T20:44:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test1()[pri:1, instance:Parametrization.Parametrization_1@51c668e3]" started-at="2023-04-25T20:44:52 IST" name="Test1" finished-at="2023-04-25T20:44:53 IST" duration-ms="1140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="Exit()[pri:0, instance:Parametrization.Parametrization_1@51c668e3]" started-at="2023-04-25T20:44:53 IST" name="Exit" finished-at="2023-04-25T20:44:53 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Exit -->
+      </class> <!-- Parametrization.Parametrization_1 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

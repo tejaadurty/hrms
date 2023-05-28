@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="suite2" parallel="methods">
+	<test name="test1">
+		<groups>
+			<run>
+				<include name="Sanity"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="Grouping.IncludeSingleTest">
+				<parameter name="Name" value="venkat"></parameter>
+				<!--<methods>
+					<include name="method2"></include>
+					<include name="method3"></include>
+					<exclude name="method1"></exclude>
+				</methods>-->
+			</class>
+		</classes>
+
+	</test>
+</suite>
+
